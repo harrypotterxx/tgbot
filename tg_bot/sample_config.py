@@ -16,7 +16,8 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'mongodb+srv://luffyluffyyy1:uXnGuZAG0zbxGOjL@cluster0.rmyxhem.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = '-1002899283051'  # needed to make sure 'save from' messages persist
+    USE_MESSAGE_DUMP = True
     LOAD = []
     NO_LOAD = ['translation', 'rss']
     WEBHOOK = False
