@@ -9,14 +9,14 @@ if not __name__.endswith("sample_config"):
 class Config(object):
     LOGGER = True
 
-    # REQUIRED
-    API_KEY = "7784815415:AAHVEJToxw3bC8GNvAmUicyrSSd6RTLTUFM"
-    OWNER_ID = "6815934546"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "@mrluppp"
+    # REQUIREDJToxw3bC8GNv
+    API_KEY = "77848TLTUFM"
+    OWNER_ID = "6546"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'mongodb+srv://luffyluffyyy1:uXnGuZAG0zbxGOjL@cluster0.rmyxhem.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'  # needed for any database modules
-    MESSAGE_DUMP = '-1002899283051'  # needed to make sure 'save from' messages persist
+    SQLALCHEMY_DATABASE_URI = 'mongodb+srv://:uXnGuZAG0zbxGOjL@cluster0.rmyxhem.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'  # needed for any database modules
+    MESSAGE_DUMP = '-13051'  # needed to make sure 'save from' messages persist
     USE_MESSAGE_DUMP = True
     LOAD = []
     NO_LOAD = ['translation', 'rss']
